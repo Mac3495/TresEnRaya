@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="#424242"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#424242">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <ImageButton
+                android:layout_width="109dp"
+                android:layout_height="109dp"
+                android:src="@drawable/blanco"
+                android:id="@+id/imageButton"
+                android:onClick="pulsax1"
+                android:scaleType="centerCrop"/>
+
+            <ImageButton
+                android:layout_width="109dp"
+                android:layout_height="109dp"
+                android:src="@drawable/blanco"
+                android:id="@+id/imageButton2"
+                android:onClick="pulsax2"
+                android:scaleType="centerCrop"/>
+
+            <ImageButton
+                android:layout_width="109dp"
+                android:layout_height="109dp"
+                android:src="@drawable/blanco"
+                android:id="@+id/imageButton3"
+                android:onClick="pulsax3"
+                android:scaleType="centerCrop"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <ImageButton
+                android:layout_width="109dp"
+                android:layout_height="109dp"
+                android:src="@drawable/blanco"
+                android:id="@+id/imageButton4"
+                android:onClick="pulsax4"
+                android:scaleType="centerCrop"/>
+
+            <ImageButton
+                android:layout_width="109dp"
+                android:layout_height="109dp"
+                android:src="@drawable/blanco"
+                android:id="@+id/imageButton5"
+                android:onClick="pulsax5"
+                android:scaleType="centerCrop"/>
+
+            <ImageButton
+                android:layout_width="109dp"
+                android:layout_height="109dp"
+                android:src="@drawable/blanco"
+                android:id="@+id/imageButton6"
+                android:onClick="pulsax6"
+                android:scaleType="centerCrop"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <ImageButton
+                android:layout_width="109dp"
+                android:layout_height="109dp"
+                android:src="@drawable/blanco"
+                android:id="@+id/imageButton7"
+                android:onClick="pulsax7"
+                android:scaleType="centerCrop"/>
+
+            <ImageButton
+                android:layout_width="109dp"
+                android:layout_height="109dp"
+                android:src="@drawable/blanco"
+                android:id="@+id/imageButton8"
+                android:onClick="pulsax8"
+                android:scaleType="centerCrop"/>
+
+            <ImageButton
+                android:layout_width="109dp"
+                android:layout_height="109dp"
+                android:src="@drawable/blanco"
+                android:id="@+id/imageButton9"
+                android:onClick="pulsax9"
+                android:scaleType="centerCrop"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reiniciar"
+        android:onClick="pulsaxborrar"
+        android:id="@+id/button" />
+
+
+</LinearLayout>

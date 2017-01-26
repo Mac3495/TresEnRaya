@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tres En Raya</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Acerca de</string>
+    <string name="title_activity_dos_jugadores">Tres En Raya</string>
+    <string name="title_activity_un_jugador">Tres En Raya</string>
+    <string name="title_activity_tercera">Acerca de</string>
+
+</resources>
